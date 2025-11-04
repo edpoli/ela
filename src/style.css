@@ -1,0 +1,66 @@
+  * {
+
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Quicksand", sans-serif;
+
+
+  }
+  
+  
+  /* NAVBAR */
+    .navbar-gradient {
+      background-color: black;
+
+        }
+
+    
+
+    #navbarNav2 a {
+            color: #ffff;
+            text-decoration: none;
+            font-weight: bolder;
+    }
+
+
+    #navbarNav2 a:hover {
+
+        text-decoration: underline;
+    }
+
+
+    /*HERO SECTION*/
+
+       .hero-1 {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url("/sito/public/decorazione_servizio.webp");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+
+/*Sezione prodotti*/
+
+        .btn-cards {
+
+            width: 150px;
+            height: 50px;
+
+        }
+
+        .card-img {
+
+            box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+        }
+
+        
+
+
+  
+
+
+        /*Ordinazioni */
+
