@@ -18,13 +18,13 @@
 
 <!--NAVBAR SECTION-->
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-gradient fixed-top">
+<nav class="navbar navbar-expand-lg bg navbar-gradient fixed-top">
                 <div class="container">
                     <a class="navbar-brand logo" href="#home">
                         <img src="/sito/public/logo_Ela.jpg" alt="" width="60" height="60" class="me-1">
                     </a>
                     
-                    <span class="text-center text-white text-uppercase fw-bold fs-100px" style="letter-spacing: 6px;"> Ela Creazioni </span>
+                    <span class="span-scritta text-center text-white text-uppercase fw-bold fs-100px" style="letter-spacing: 6px;"> Ela Creazioni </span>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2">
                         <span class="navbar-toggler-icon"></span>
@@ -114,13 +114,16 @@
 
         <h3 class="text-start py-5"> Calamite </h3>
 
-        <div class="d-flex flex-wrap justify-content-evenly align-items-center gap-3 calamite-imgs" >
-            <div class="card text-bg-dark shadow-lg" style="width: 25rem;">
+        
+        <div class="row row-cols-2 py-3">
+            <div class="col" style="">
                 <img src="/sito/public/calamita_inverno.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay"></div>
             </div>
 
-             <div class="card shadow text-bg-dark" style="width: 25rem;">
-                <img src="/sito/public/calamita_pupazzo.jpg" class="card-img card-primavera" alt="...">
+            <div class="col" style="">
+                <img src="/sito/public/calamita_pupazzo.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay"> </div>
             </div>
         </div>
                 
@@ -135,39 +138,68 @@
         </h3>
 
 
-        <div class="row row-cols-3 py-3 gap-2">
-            <div class="col" style="width: 25rem;">
+        <div class="row row-cols-3 py-3">
+            <div class="col" style="">
                 <img src="/sito/public/piatto_1.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <h5 class="card-title"></h5>
-                </div>
+                <div class="card-img-overlay"></div>
             </div>
 
-            <div class="col" style="width: 30rem;">
-                <img src="/sito/public/set_piatti.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                    <h5 class="card-title"></h5>
-                </div>
+            <div class="col" style="">
+                <img src="https://images.unsplash.com/photo-1748448816183-6ffb77fe3c31?q=80&w=737&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img" alt="...">
+                <div class="card-img-overlay"> </div>
             </div>
 
-        <div class="col" style="width: 25rem;">
+            <div class="col" style="">
                 <img src="/sito/public/set_piatti2.jpg" class="card-img" alt="...">
                 <div class="card-img-overlay">
-                    <h5 class="card-title"></h5>
-                </div>
+                 </div>
             </div>
 
         </div>
 
-         <div class="text-center py-5">
+            <div class="text-center py-5">
                 <a href=""> <button class="btn btn-primary btn-cards" id="set-piatti"> Scopri di più </button></a>
             </div>
     </div>
+    
 </section>
 
 
+<footer class="mt-auto">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <h5>About Us</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-white">Home</a></li>
+          <li><a href="#" class="text-decoration-none text-white">Services</a></li>
+          <li><a href="#" class="text-decoration-none text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5>Follow Us</h5>
+        <ul class="list-inline social-icons">
+          <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
  
-    <script type ="module" src="/src/main.js"></script>
+    <script type ="module" src="/sito/src/main.js"></script>
     <script type ="module" src="/sito/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">  </script>
   </body>
 </html>

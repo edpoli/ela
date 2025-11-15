@@ -10,17 +10,13 @@
   
   
   /* NAVBAR */
-    .navbar-gradient {
-      background-color: black;
 
-        }
-
-    
 
     #navbarNav2 a {
             color: #ffff;
             text-decoration: none;
             font-weight: bolder;
+            font-size: 18px;
     }
 
 
@@ -53,9 +49,21 @@
         }
     .card-img {
 
-            box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+            box-shadow: 0 5px 10px rgba(0,0,0,0.5);
         }
 
+        .card-img:hover {
+
+          transform: scale(0.85);
+
+        }
+
+        .set_piatto {
+
+          margin-top: 165px;
+          text-align: center;
+
+        }
         
 
 
@@ -63,3 +71,14 @@
 
 
      
+/*FOOTER*/
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 3rem 0;
+  }
+
+  .social-icons a {
+    font-size: 1.25rem;
+  }
