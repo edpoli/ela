@@ -8,12 +8,15 @@ window.addEventListener('scroll', function(){
 
     if (currentScroll > lastScroll) {
 
-        document.querySelector('.navbar').style.backgroundColor = "#343a40"
-    
+        document.querySelector('.navbar-index').style.backgroundColor = "#343a40"
+        document.querySelector('.span-scritta').style.fontSize = '19px';
     } else {
 
-        document.querySelector('.navbar').style.backgroundColor = '';
+        document.querySelector('.navbar-index').style.backgroundColor = '';
+        document.querySelector('.span-scritta').style.fontSize = '';
     }
 
     lastScrollPosition = currentScrollPosition;
 }, { passive: true });
+
+

@@ -82,3 +82,13 @@ footer {
   .social-icons a {
     font-size: 1.25rem;
   }
+
+
+
+  /*PAGINA PIATTI */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   
+    filter: invert(0.1) sepia(1) saturate(0) hue-rotate(0deg) brightness(0.5) contrast(1.5);
+    
+}
