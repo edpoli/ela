@@ -7,7 +7,7 @@
 
 
   }
-  
+
   
   /* NAVBAR */
 
@@ -25,6 +25,7 @@
         text-decoration: underline;
     }
 
+  
 
     /*HERO SECTION*/
 
@@ -37,19 +38,60 @@
             background-size: cover;
         }
 
+        .hero-1 button:hover {
+
+     filter: opacity(0.8);
+     cursor: pointer;
+
+    }
+
+
+
+
+    /*about*/
+
+
+    .ctn-about {
+
+      border-radius: 15px;
+      overflow: hidden;
+      background-color: #797d62;
+      color: #fff;
+
+    }
+
+
+
+
 
 /*Sezione prodotti*/
 
 
+    .products {
+    }
+
+
     .btn-cards {
 
-            width: 150px;
-            height: 50px;
+  
+            background-color: #d9ae94;
+
+        }
+
+        .btn-cards:hover {
+
+
+          filter:opacity(0.8);
 
         }
     .card-img {
+  
+            box-shadow: 0 5px 5px rgba(248, 247, 247, 0.949);
+        }
 
-            box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+        .products img {
+
+          border-radius: 50px;
         }
 
         .card-img:hover {
@@ -74,7 +116,7 @@
 /*FOOTER*/
 
 footer {
-    background-color: #343a40;
+    background-color: #997b66;
     color: #fff;
     padding: 3rem 0;
   }

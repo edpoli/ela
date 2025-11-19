@@ -8,12 +8,11 @@ window.addEventListener('scroll', function(){
 
     if (currentScroll > lastScroll) {
 
-        document.querySelector('.navbar-index').style.backgroundColor = "#343a40"
-        document.querySelector('.span-scritta').style.fontSize = '19px';
+        document.querySelector('.navbar-index').style.backgroundColor = "#997b66"
+
     } else {
 
         document.querySelector('.navbar-index').style.backgroundColor = '';
-        document.querySelector('.span-scritta').style.fontSize = '';
     }
 
     lastScrollPosition = currentScrollPosition;
